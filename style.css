@@ -2,7 +2,83 @@
 {
     width: 1300px;
     margin:0 auto;
-    background-color: #888888;
+    background-color: #474973;
     text-align: center;
     align-content: center;
 }
+body {
+    background-color: #0d0c1d;
+    font-size: 16pt;
+    color: white;
+
+  }
+  h1, p { margin-bottom: 10px; } 
+
+  .button {
+    background-color: #f1dac4;
+    border: 2px solid #f1dac4;
+    color: #000;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .button:hover{
+    background-color: #a69cac;
+    color: #000;
+    border: 2px solid #a69cac;
+  }
+    #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #161b33;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+      }
+      .navbar li {
+        height: auto;
+        width: 135.8px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #161b33;
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px solid #161b33;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover {
+        background-color: #a69cac;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #161b33;
+      }
+      .navbar li ul li a:hover {
+        background-color: #a69cac;
+      }
