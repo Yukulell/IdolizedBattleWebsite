@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #carte
 {
     width: 1300px;
@@ -6,6 +11,7 @@
     text-align: center;
     align-content: center;
 }
+
 body {
     background-color: #0d0c1d;
     font-size: 16pt;
@@ -82,3 +88,7 @@ body {
       .navbar li ul li a:hover {
         background-color: #a69cac;
       }
+img{
+
+    margin: 40px;
+}
