@@ -2,7 +2,7 @@ h1{  padding: 20px 20px 20px;  margin: 10px 50px 20px; }body{  padding: 10px 50p
   font-family: 'Segoe UI';
 }
 #carte
-{
+{    border-radius: 80px;
     width: 1300px;
     margin:0 auto;
     background-color: #474973;
@@ -21,21 +21,21 @@ body {
 
   .button {
     border-radius: 10px;
-    background-color: #f1dac4;
-    border: 2px solid #f1dac4;
-    color: #000;
+    background-color: #01911a;
+    border: 2px solid #01911a;
+    color: #ffffff;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     margin: 50px 50px;
     cursor: pointer;
     text-decoration: none;
   }
   .button:hover{
-    background-color: #a69cac;
-    color: #000;
-    border: 2px solid #a69cac;
+    background-color: #006612;
+    color: #ffffff;
+    border: 2px solid #006612;
   }
     #wrap {
         width: 100%;
