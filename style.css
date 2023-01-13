@@ -20,6 +20,7 @@ body {
   p { margin-bottom: 10px; } 
 
   .button {
+    border-radius: 10px;
     background-color: #f1dac4;
     border: 2px solid #f1dac4;
     color: #000;
