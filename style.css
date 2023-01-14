@@ -1,8 +1,8 @@
-* {
+h1{  padding: 20px 20px 20px;  margin: 10px 50px 20px; }body{  padding: 10px 50px 20px;}* {
   font-family: 'Segoe UI';
 }
 #carte
-{
+{    border-radius: 80px;
     width: 1300px;
     margin:0 auto;
     background-color: #474973;
@@ -17,24 +17,25 @@ body {
     color: white;
 
   }
-  h1, p { margin-bottom: 10px; } 
+  p { margin-bottom: 10px; } 
 
   .button {
-    background-color: #f1dac4;
-    border: 2px solid #f1dac4;
-    color: #000;
-    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #01911a;
+    border: 2px solid #01911a;
+    color: #ffffff;
+    padding: 10px 20px;
     text-align: center;
     display: inline-block;
-    font-size: 20px;
-    margin: 10px 30px;
+    font-size: 25px;
+    margin: 50px 50px;
     cursor: pointer;
     text-decoration: none;
   }
   .button:hover{
-    background-color: #a69cac;
-    color: #000;
-    border: 2px solid #a69cac;
+    background-color: #006612;
+    color: #ffffff;
+    border: 2px solid #006612;
   }
     #wrap {
         width: 100%;
@@ -52,18 +53,18 @@ body {
       }
       .navbar li {
         height: auto;
-        width: 135.8px;
+        width: 325px;
         float: left;
         text-align: center;
         list-style: none;
-        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        font: normal bold 18px/1em Arial, Verdana, Helvetica;
         padding: 0;
         margin: 0;
         background-color: #161b33;
       }
       .navbar a {
         padding: 18px 0;
-        border-left: 1px solid #161b33;
+        border-left: 0px solid #161b33;
         text-decoration: none;
         color: white;
         display: block;
