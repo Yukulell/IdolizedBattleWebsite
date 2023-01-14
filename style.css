@@ -5,14 +5,14 @@ h1{  padding: 20px 20px 20px;  margin: 10px 50px 20px; }body{  padding: 10px 50p
 {    border-radius: 80px;
     width: 1300px;
     margin:0 auto;
-    background-color: #474973;
+    background-color: #354f52;
     text-align: center;
     align-content: center;
     font-family: 'Segoe UI';
 }
 
 body {
-    background-color: #0d0c1d;
+    background-color: #2f3e46;
     font-size: 16pt;
     color: white;
 
@@ -43,7 +43,7 @@ body {
         margin: 0;
         z-index: 99;
         position: relative;
-        background-color: #161b33;
+        background-color: #52796f;
       }
       .navbar {
         height: 50px;
@@ -60,18 +60,18 @@ body {
         font: normal bold 18px/1em Arial, Verdana, Helvetica;
         padding: 0;
         margin: 0;
-        background-color: #161b33;
+        background-color: #52796f;
       }
       .navbar a {
         padding: 18px 0;
-        border-left: 0px solid #161b33;
+        border-left: 0px solid #52796f;
         text-decoration: none;
         color: white;
         display: block;
       }
       .navbar li:hover,
       a:hover {
-        background-color: #a69cac;
+        background-color: #cad2c5;
       }
       .navbar li ul {
         display: none;
@@ -83,10 +83,10 @@ body {
         display: block;
       }
       .navbar li ul li {
-        background-color: #161b33;
+        background-color: #52796f;
       }
       .navbar li ul li a:hover {
-        background-color: #a69cac;
+        background-color: #cad2c5;
       }
 img{
 
